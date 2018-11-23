@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardview_fish">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        //ASAM FISH HEAD
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_fish_asam"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtFishAsam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="ASAM FISH HEAD"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_fish_asam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/fi_asam_salmon_fish_head" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //DUO SEASON SALMON PUFFS
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_fish_duo"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtFishDou"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="DUO SEASON SALMON PUFFS"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_fish_dou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/fi_duo_season_salmon_puff" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //TOMAN IN PUMPKIN SAUCE
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_fish_toman"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtFishToman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="TOMAN IN PUMPKIN SAUCE"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_fish_toman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/fi_pumpkin_sauce_fish" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</ScrollView>

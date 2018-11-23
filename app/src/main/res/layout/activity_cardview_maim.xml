@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardview_maim">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            //Finger Foods
+             <android.support.v7.widget.CardView
+            android:id="@+id/card_fingerfoods_main"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtFingerfoodMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="FINGER FOODS"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_fingerfoods_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/ff_fingerfoods" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+            //Pizza
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_pizza_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtPizzaMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="PIZZA"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_pizza_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/pz_pizza" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //Pasta
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_pasta_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtPastaMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="PASTA"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_pasta_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/pt_pasta" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //delight
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_delight_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtDelightMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="MEDIFOODS DELIGHTS"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_delight_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/de_delights" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //Sandwich
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_sandwich_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtSandwichMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="SANDWICH"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_sandwich_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/sw_sandwich" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //Eastern Soup
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_eastern_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtEasternMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="EASTERN SOUPS"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_eastern_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/es_easternsoup" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //Western Soup
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_western_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtWesternMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="WESTERN SOUPS"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_western_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/ws_westernsoup" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //Chicken
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_chicken_main"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                app:cardElevation="8dp"
+                app:cardCornerRadius="2dp">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txtChickenMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#7f333639"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="CHICKEN"
+                        android:textColor="@android:color/white" />
+                    <ImageView
+                        android:id="@+id/image_chicken_main"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        android:layout_gravity="center_horizontal"
+                        app:srcCompat="@drawable/ch_chicken" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            //fish
+            <android.support.v7.widget.CardView
+            android:id="@+id/card_fish_main"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtFishMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="FISH"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_fish_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/fi_fish" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+            //snack
+             <android.support.v7.widget.CardView
+            android:id="@+id/card_snack_main"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtSnackMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="SNACKS"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_snack_main"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/sn_snacks" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

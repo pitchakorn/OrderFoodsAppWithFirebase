@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.topnt.firebasetest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".logIn" />
+        <activity android:name=".signUp" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Cardview_maim" />
+        <activity android:name=".Cardview_fingerfood" />
+        <activity android:name=".Cardview_pizza" />
+        <activity android:name=".Cardview_pasta" />
+        <activity android:name=".Cardview_delight" />
+        <activity android:name=".Cardview_sandwich" />
+        <activity android:name=".Cardview_eastern" />
+        <activity android:name=".Cardview_western" />
+        <activity android:name=".Cardview_chicken" />
+        <activity android:name=".Cardview_fish" />
+        <activity android:name=".Cardview_snack" />
+        <activity android:name=".Detail_fingerfood_thai" />
+        <activity android:name=".Detail_fingerfood_sesameball" />
+        <activity android:name=".Detail_fingerfood_potato" />
+        <activity android:name=".Detail_fingerfood_delight" />
+        <activity android:name=".Detail_fingerfood_sour" />
+        <activity android:name=".Detail_pizza_mushroom" />
+        <activity android:name=".Detail_pizza_margherita" />
+        <activity android:name=".Detail_pizza_hawaiian" />
+        <activity android:name=".Detail_pasta_garden" />
+        <activity android:name=".Detail_pasta_spicy" />
+        <activity android:name=".Detail_pasta_bolognese" />
+        <activity android:name=".Detail_pasta_cauliflower" />
+        <activity android:name=".Detail_pasta_fusion" />
+        <activity android:name=".Detail_delight_nasi" />
+        <activity android:name=".Detail_delight_lei" />
+        <activity android:name=".Detail_delight_pepper" />
+        <activity android:name=".Detail_delight_kwai" />
+        <activity android:name=".Detail_delight_japanese" />
+        <activity android:name=".Detail_delight_cantonese" />
+        <activity android:name=".Detail_sandwich_egg" />
+        <activity android:name=".Detail_sandwich_lentil" />
+        <activity android:name=".Detail_sandwich_hummus" />
+        <activity android:name=".Detail_eastern_lotus" />
+        <activity android:name=".Detail_eastern_old" />
+        <activity android:name=".Detail_eastern_burdock" />
+        <activity android:name=".Detail_eastern_abc" />
+        <activity android:name=".Detail_western_mushroom" />
+        <activity android:name=".Detail_western_pumpkin" />
+        <activity android:name=".Detail_western_garden" />
+        <activity android:name=".Detail_western_minestrone" />
+        <activity android:name=".Detail_chicken_roasted" />
+        <activity android:name=".Detail_chicken_curry" />
+        <activity android:name=".Detail_chicken_rendang" />
+        <activity android:name=".Detail_chicken_herball" />
+        <activity android:name=".Detail_fish_asam" />
+        <activity android:name=".Detail_fish_duo" />
+        <activity android:name=".Detail_fish_toman" />
+        <activity android:name=".Detail_snack_ginger" />
+        <activity android:name=".Detail_snack_coconut" />
+        <activity android:name=".Detail_snack_red" />
+        <activity android:name=".Detail_snack_char" />
+        <activity android:name=".Detail_snack_chai" />
+        <activity android:name=".Detail_snack_onde" />
+        <activity android:name=".Detail_snack_yam" />
+        <activity android:name=".Detail_snack_layer"></activity>
+    </application>
+
+</manifest>

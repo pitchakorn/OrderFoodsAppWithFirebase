@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardview_eastern">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        //LOTUS ROOT
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_eastern_lotus"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtEasternLotus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="LOTUS ROOT"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_eastern_lotus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/es_lotus_chinese_soup" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //OLD CUCUMBER
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_eastern_old"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtEasternOld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="OLD CUCUMBER"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_eastern_old"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/es_old_cucumber_chinese_soup" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //BURDOCK
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_eastern_burdock"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtEasternBurdock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="BURDOCK"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_eastern_burdock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/es_bur_dock_chinese_soup" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //ABC
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_eastern_abc"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtEasternAbc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="ABC CHINESE"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_eastern_abc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/es_abc_chinese_soup" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

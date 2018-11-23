@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cardview_delight">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        //MEDIFOODS NASI LEMAK
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_delight_nasi"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtDelightNasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="MEDIFOODS NASI LEMAK"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_delight_nasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/de_nasi_lemak_veg" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //LEI CHA
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_delight_lei"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtDelightLei"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="LEI CHA"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_delight_lei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/de_lui_cha" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //BLACK PEPPER UDON
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_delight_pepper"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtDelightPepper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="BLACK PEPPER UDON"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_delight_pepper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/de_black_pepper_udon" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //KWAI FA MEE
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_delight_kwai"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtDelightKwai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="KWAI FA MEE"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_delight_kwai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/de_kwai_fa_mee" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //JAPANESE CHARCOAL SOBA
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_delight_japanese"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtDelightJapanese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="JAPANESE CHARCOAL SOBA"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_delight_japanese"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/de_japanese_charcoal_soba" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //CANTONESE STYLE MEE SUA
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_delight_cantonese"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtDelightCantonese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="CANTONESE STYLE MEE SUA"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_delight_cantonese"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/de_cantonese_style_mee_sua" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_fish_toman">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        //TOMAN IN PUMPKIN SAUCE
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_detail_fish_toman"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtFishToman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#7f333639"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:text="TOMAN IN PUMPKIN SAUCE"
+                    android:textColor="@android:color/white" />
+                <ImageView
+                    android:id="@+id/image_fish_toman"
+                    android:layout_width="400dp"
+                    android:layout_height="290dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center_horizontal"
+                    app:srcCompat="@drawable/fi_pumpkin_sauce_fish" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //details
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_detail2_fish_toman"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="2dp">
+
+            <LinearLayout
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Breaded fried toman fish slices in pumpkin sauce. Served with rice"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:gravity="bottom"
+                    android:layout_gravity="right"
+                    android:text="Price : 149 ฿"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        //edittext
+        <EditText
+            android:id="@+id/edt_fish_toman"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:hint="TABLE  NUMBER"
+            android:gravity="center"/>
+        //button order
+        <Button
+            android:id="@+id/btn_fish_toman"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ORDER"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#2ECC71"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
